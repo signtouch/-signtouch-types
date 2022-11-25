@@ -8,6 +8,9 @@
     "test": "jest --passWithNoTests",
     "lint": "eslint ."
   },
+  "publishConfig": {
+    "@signtouch:registry": "https://npm.pkg.github.com"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
